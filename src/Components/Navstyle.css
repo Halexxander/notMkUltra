@@ -1,0 +1,57 @@
+/* Navstyle.css */
+
+.navgeneral {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color:white;
+  transition: box-shadow 0.3s; /* Add a transition for smooth effect */
+}
+#h41,
+#h42 {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#h42 {
+  color: white;
+  background-color: black;
+  padding: 5px 10px; /* Add some padding to create a black box */
+  border-radius: 5px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+li {
+  list-style: none;
+  color: black;
+  font-size: 20px;
+  /* Add a shadow on hover */
+  transition: box-shadow 0.3s;
+}
+
+li:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.link {
+  text-decoration: none;
+  color: black; /* Change link color to black */
+}
+
+
+.navgeneral:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.466);
+}
